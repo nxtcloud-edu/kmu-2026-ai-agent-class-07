@@ -48,21 +48,7 @@
 
 ## 스킬을 레포로 복사하기 (Kiro Crew를 쓰면)
 
-Kiro Crew는 스킬을 레포 밖의 `~/.kiro/crew/skills/<스킬 이름>/`에 저장한다. 스킬을 만들거나 고치면 레포의 `구성/skills/`로 복사한다. 레포 폴더에서 실행한다.
-
-macOS:
-
-```bash
-cp -R ~/.kiro/crew/skills/<스킬 이름> 구성/skills/
-```
-
-Windows PowerShell:
-
-```powershell
-Copy-Item -Recurse "$env:USERPROFILE\.kiro\crew\skills\<스킬 이름>" 구성\skills\
-```
-
-복사하기 전에 스킬의 `scripts/` 안에 토큰이나 비밀번호가 없는지 확인한다.
+Kiro Crew는 스킬을 레포 밖의 `~/.kiro/crew/skills/<스킬 이름>/`에 저장한다. 스킬을 만들거나 고치면 레포의 `구성/skills/`로 복사한다. 에이전트에게 맡기는 프롬프트와 직접 복사하는 명령은 [안내/스킬_레포에_넣기.md](안내/스킬_레포에_넣기.md)에 있다.
 
 ## 레포에 넣지 않는 것
 
