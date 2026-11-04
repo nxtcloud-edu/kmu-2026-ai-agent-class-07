@@ -1,0 +1,25 @@
+{
+  "genre": "서양음악(클래식)",
+  "shcate": "CCCA",
+  "regions": [
+    {
+      "code": "11",
+      "name": "서울"
+    },
+    {
+      "code": "41",
+      "name": "경기"
+    }
+  ],
+  "period": {
+    "stdate": "20261104",
+    "eddate": "20261204",
+    "days": 30,
+    "tz": "Asia/Seoul"
+  },
+  "target_count": 10,
+  "collected_count": 10,
+  "data_source_type": "API",
+  "data_source": "KOPIS Open API (https://www.kopis.or.kr/)",
+  "collected_at_kst": "2026-11-04 10:37:55"
+}
