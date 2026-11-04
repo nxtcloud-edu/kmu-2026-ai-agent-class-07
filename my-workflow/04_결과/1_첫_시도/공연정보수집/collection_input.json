@@ -17,9 +17,9 @@
     "days": 30,
     "tz": "Asia/Seoul"
   },
-  "target_count": 10,
-  "collected_count": 10,
+  "target_count": 60,
+  "collected_count": 60,
   "data_source_type": "API",
   "data_source": "KOPIS Open API (https://www.kopis.or.kr/)",
-  "collected_at_kst": "2026-11-04 10:37:55"
+  "collected_at_kst": "2026-11-04 11:03:09"
 }
